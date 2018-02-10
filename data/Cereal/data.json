@@ -1,0 +1,1571 @@
+{
+  "Dist_0001": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 43.0,
+      "dev": 60.2
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 20.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0003"
+    ]
+  },
+  "Dist_0002": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 69.0,
+      "dev": 96.6
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0003"
+    ]
+  },
+  "Dist_0003": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 49.0,
+      "dev": 68.6
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 22.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0003"
+    ]
+  },
+  "Dist_0004": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 90.0,
+      "dev": 126.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 19.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0003"
+    ]
+  },
+  "Dist_0005": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 80.0,
+      "dev": 188.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 20.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0003"
+    ]
+  },
+  "Dist_0006": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 53.0,
+      "dev": 153.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 23.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0004"
+    ]
+  },
+  "Dist_0007": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 96.0,
+      "dev": 122.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 23.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0004"
+    ]
+  },
+  "Dist_0008": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 251.0,
+      "dev": 329.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 20.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0004"
+    ]
+  },
+  "Dist_0009": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 227.0,
+      "dev": 361.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0004"
+    ]
+  },
+  "Dist_0010": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1532.0,
+      "dev": 1558.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 24.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0011": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 823.0,
+      "dev": 1275.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 20.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0012": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1616.0,
+      "dev": 1271.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 23.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0013": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 424.0,
+      "dev": 1318.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 24.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0014": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1602.0,
+      "dev": 1595.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 20.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0015": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 433.0,
+      "dev": 1018.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0016": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1228.0,
+      "dev": 1344.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0017": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 715.0,
+      "dev": 1465.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 24.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0018": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1479.0,
+      "dev": 3049.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0019": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 878.0,
+      "dev": 1361.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 23.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0020": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 689.0,
+      "dev": 1276.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 21.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0005"
+    ]
+  },
+  "Dist_0021": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 41.0,
+      "dev": 82.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0006"
+    ]
+  },
+  "Dist_0022": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 33.0,
+      "dev": 36.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0006"
+    ]
+  },
+  "Dist_0023": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 37.0,
+      "dev": 80.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0006"
+    ]
+  },
+  "Dist_0024": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 27.0,
+      "dev": 55.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 24.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0006"
+    ]
+  },
+  "Dist_0025": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 72.0,
+      "dev": 62.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0006"
+    ]
+  },
+  "Dist_0026": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 162.0,
+      "dev": 252.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 23.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0007"
+    ]
+  },
+  "Dist_0027": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 71.0,
+      "dev": 111.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 22.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0007"
+    ]
+  },
+  "Dist_0028": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 90.0,
+      "dev": 80.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 23.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0007"
+    ]
+  },
+  "Dist_0029": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 144.0,
+      "dev": 188.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 23.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0007"
+    ]
+  },
+  "Dist_0030": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 605.0,
+      "dev": 1458.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 21.0,
+      "dev": 0.3
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0031": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1098.0,
+      "dev": 1322.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0032": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 520.0,
+      "dev": 984.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 24.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0033": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 303.0,
+      "dev": 937.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 20.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0034": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1204.0,
+      "dev": 2226.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0035": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 996.0,
+      "dev": 1281.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 19.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0036": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 758.0,
+      "dev": 1750.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 19.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0037": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 583.0,
+      "dev": 744.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 19.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0038": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1001.0,
+      "dev": 2499.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 20.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0039": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 600.0,
+      "dev": 987.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 24.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0040": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 261.0,
+      "dev": 536.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0008"
+    ]
+  },
+  "Dist_0041": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 673.0,
+      "dev": 635.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Dist_0042": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 620.0,
+      "dev": 730.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 20.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Dist_0043": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1049.0,
+      "dev": 1017.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Dist_0044": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 317.0,
+      "dev": 791.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 24.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Dist_0045": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1634.0,
+      "dev": 1211.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Dist_0046": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1003.0,
+      "dev": 1313.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Dist_0047": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 1428.0,
+      "dev": 2330.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Dist_0048": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 450.0,
+      "dev": 481.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 20.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Dist_0049": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 163.0,
+      "dev": 271.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Dist_0050": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 873.0,
+      "dev": 1106.0
+    },
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 19.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Dist_0051": {
+    "cost": 1.97,
+    "rel_depth": 0,
+    "classification": "DIST",
+    "demand": {
+      "avg": 610.0,
+      "dev": 1212.0
+    },
+    "time": {
+      "type": "NORMAL",
+      "mean": 21.0,
+      "dev": 2.0
+    },
+    "out_stages": [],
+    "in_stages": [
+      "Manuf_0009"
+    ]
+  },
+  "Manuf_0001": {
+    "cost": 0.92,
+    "rel_depth": 3,
+    "classification": "MANUF",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 19.0,
+      "pmf": {
+        "15.0": 0.3,
+        "20.0": 0.6,
+        "25.0": 0.1
+      }
+    },
+    "out_stages": [
+      "Trans_0004"
+    ],
+    "in_stages": [
+      "Part_0001",
+      "Part_0002",
+      "Part_0003",
+      "Part_0004",
+      "Part_0005",
+      "Part_0006"
+    ]
+  },
+  "Manuf_0002": {
+    "cost": 0.96,
+    "rel_depth": 3,
+    "classification": "MANUF",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 19.0,
+      "pmf": {
+        "15.0": 0.3,
+        "20.0": 0.6,
+        "25.0": 0.1
+      }
+    },
+    "out_stages": [
+      "Trans_0005"
+    ],
+    "in_stages": [
+      "Part_0001",
+      "Part_0002",
+      "Part_0003",
+      "Part_0004",
+      "Part_0005",
+      "Part_0006"
+    ]
+  },
+  "Manuf_0003": {
+    "cost": 0.43,
+    "rel_depth": 1,
+    "classification": "MANUF",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 23.0
+    },
+    "out_stages": [
+      "Dist_0001",
+      "Dist_0002",
+      "Dist_0003",
+      "Dist_0004",
+      "Dist_0005"
+    ],
+    "in_stages": [
+      "Part_0010",
+      "Part_0011",
+      "Part_0019",
+      "Trans_0003",
+      "Trans_0004"
+    ]
+  },
+  "Manuf_0004": {
+    "cost": 0.49,
+    "rel_depth": 1,
+    "classification": "MANUF",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 19.0
+    },
+    "out_stages": [
+      "Dist_0006",
+      "Dist_0007",
+      "Dist_0008",
+      "Dist_0009"
+    ],
+    "in_stages": [
+      "Part_0012",
+      "Part_0013",
+      "Part_0019",
+      "Trans_0003",
+      "Trans_0004"
+    ]
+  },
+  "Manuf_0005": {
+    "cost": 1.25,
+    "rel_depth": 1,
+    "classification": "MANUF",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [
+      "Dist_0010",
+      "Dist_0011",
+      "Dist_0012",
+      "Dist_0013",
+      "Dist_0014",
+      "Dist_0015",
+      "Dist_0016",
+      "Dist_0017",
+      "Dist_0018",
+      "Dist_0019",
+      "Dist_0020"
+    ],
+    "in_stages": [
+      "Part_0014",
+      "Part_0015",
+      "Part_0016",
+      "Part_0019",
+      "Trans_0003",
+      "Trans_0004"
+    ]
+  },
+  "Manuf_0006": {
+    "cost": 0.36,
+    "rel_depth": 1,
+    "classification": "MANUF",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 19.6,
+      "pmf": {
+        "18.0": 0.15,
+        "19.0": 0.25,
+        "20.0": 0.45,
+        "21.0": 0.15
+      }
+    },
+    "out_stages": [
+      "Dist_0021",
+      "Dist_0022",
+      "Dist_0023",
+      "Dist_0024",
+      "Dist_0025"
+    ],
+    "in_stages": [
+      "Part_0011",
+      "Part_0017",
+      "Part_0019",
+      "Trans_0002",
+      "Trans_0004"
+    ]
+  },
+  "Manuf_0007": {
+    "cost": 0.97,
+    "rel_depth": 1,
+    "classification": "MANUF",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 19.6,
+      "pmf": {
+        "18.0": 0.15,
+        "19.0": 0.25,
+        "20.0": 0.45,
+        "21.0": 0.15
+      }
+    },
+    "out_stages": [
+      "Dist_0026",
+      "Dist_0027",
+      "Dist_0028",
+      "Dist_0029"
+    ],
+    "in_stages": [
+      "Part_0013",
+      "Part_0018",
+      "Part_0019",
+      "Trans_0002",
+      "Trans_0004"
+    ]
+  },
+  "Manuf_0008": {
+    "cost": 0.61,
+    "rel_depth": 1,
+    "classification": "MANUF",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 19.6,
+      "pmf": {
+        "18.0": 0.15,
+        "19.0": 0.25,
+        "20.0": 0.45,
+        "21.0": 0.15
+      }
+    },
+    "out_stages": [
+      "Dist_0030",
+      "Dist_0031",
+      "Dist_0032",
+      "Dist_0033",
+      "Dist_0034",
+      "Dist_0035",
+      "Dist_0036",
+      "Dist_0037",
+      "Dist_0038",
+      "Dist_0039",
+      "Dist_0040"
+    ],
+    "in_stages": [
+      "Part_0016",
+      "Part_0019",
+      "Part_0020",
+      "Part_0021",
+      "Trans_0002",
+      "Trans_0004"
+    ]
+  },
+  "Manuf_0009": {
+    "cost": 0.74,
+    "rel_depth": 1,
+    "classification": "MANUF",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 19.6,
+      "pmf": {
+        "18.0": 0.15,
+        "19.0": 0.25,
+        "20.0": 0.45,
+        "21.0": 0.15
+      }
+    },
+    "out_stages": [
+      "Dist_0041",
+      "Dist_0042",
+      "Dist_0043",
+      "Dist_0044",
+      "Dist_0045",
+      "Dist_0046",
+      "Dist_0047",
+      "Dist_0048",
+      "Dist_0049",
+      "Dist_0050",
+      "Dist_0051"
+    ],
+    "in_stages": [
+      "Part_0016",
+      "Part_0019",
+      "Part_0022",
+      "Part_0023",
+      "Trans_0001",
+      "Trans_0002",
+      "Trans_0005"
+    ]
+  },
+  "Part_0001": {
+    "cost": 0.81,
+    "rel_depth": 4,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 23.0
+    },
+    "out_stages": [
+      "Manuf_0001",
+      "Manuf_0002"
+    ],
+    "in_stages": []
+  },
+  "Part_0002": {
+    "cost": 0.53,
+    "rel_depth": 4,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [
+      "Manuf_0001",
+      "Manuf_0002"
+    ],
+    "in_stages": []
+  },
+  "Part_0003": {
+    "cost": 0.9,
+    "rel_depth": 4,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 19.0
+    },
+    "out_stages": [
+      "Manuf_0001",
+      "Manuf_0002"
+    ],
+    "in_stages": []
+  },
+  "Part_0004": {
+    "cost": 0.82,
+    "rel_depth": 4,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [
+      "Manuf_0001",
+      "Manuf_0002"
+    ],
+    "in_stages": []
+  },
+  "Part_0005": {
+    "cost": 0.53,
+    "rel_depth": 4,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [
+      "Manuf_0001",
+      "Manuf_0002"
+    ],
+    "in_stages": []
+  },
+  "Part_0006": {
+    "cost": 0.46,
+    "rel_depth": 4,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [
+      "Manuf_0001",
+      "Manuf_0002"
+    ],
+    "in_stages": []
+  },
+  "Part_0007": {
+    "cost": 0.36,
+    "rel_depth": 3,
+    "classification": "PART",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 21.5,
+      "pmf": {
+        "20.0": 0.75,
+        "25.0": 0.2,
+        "30.0": 0.05
+      }
+    },
+    "out_stages": [
+      "Trans_0001"
+    ],
+    "in_stages": []
+  },
+  "Part_0008": {
+    "cost": 0.56,
+    "rel_depth": 3,
+    "classification": "PART",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 21.5,
+      "pmf": {
+        "20.0": 0.75,
+        "25.0": 0.2,
+        "30.0": 0.05
+      }
+    },
+    "out_stages": [
+      "Trans_0002"
+    ],
+    "in_stages": []
+  },
+  "Part_0009": {
+    "cost": 0.47,
+    "rel_depth": 3,
+    "classification": "PART",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 21.5,
+      "pmf": {
+        "20.0": 0.75,
+        "25.0": 0.2,
+        "30.0": 0.05
+      }
+    },
+    "out_stages": [
+      "Trans_0003"
+    ],
+    "in_stages": []
+  },
+  "Part_0010": {
+    "cost": 0.53,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [
+      "Manuf_0003"
+    ],
+    "in_stages": []
+  },
+  "Part_0011": {
+    "cost": 1.32,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [
+      "Manuf_0003",
+      "Manuf_0006"
+    ],
+    "in_stages": []
+  },
+  "Part_0012": {
+    "cost": 0.37,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "NORMAL",
+      "mean": 21.0,
+      "dev": 5.0
+    },
+    "out_stages": [
+      "Manuf_0004"
+    ],
+    "in_stages": []
+  },
+  "Part_0013": {
+    "cost": 0.88,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 23.0
+    },
+    "out_stages": [
+      "Manuf_0004",
+      "Manuf_0007"
+    ],
+    "in_stages": []
+  },
+  "Part_0014": {
+    "cost": 0.84,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 23.0
+    },
+    "out_stages": [
+      "Manuf_0005"
+    ],
+    "in_stages": []
+  },
+  "Part_0015": {
+    "cost": 0.88,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 24.0
+    },
+    "out_stages": [
+      "Manuf_0005"
+    ],
+    "in_stages": []
+  },
+  "Part_0016": {
+    "cost": 0.5,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [
+      "Manuf_0005",
+      "Manuf_0008",
+      "Manuf_0009"
+    ],
+    "in_stages": []
+  },
+  "Part_0017": {
+    "cost": 0.38,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 19.0
+    },
+    "out_stages": [
+      "Manuf_0006"
+    ],
+    "in_stages": []
+  },
+  "Part_0018": {
+    "cost": 0.67,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 22.0
+    },
+    "out_stages": [
+      "Manuf_0007"
+    ],
+    "in_stages": []
+  },
+  "Part_0019": {
+    "cost": 0.68,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [
+      "Manuf_0003",
+      "Manuf_0004",
+      "Manuf_0005",
+      "Manuf_0006",
+      "Manuf_0007",
+      "Manuf_0008",
+      "Manuf_0009"
+    ],
+    "in_stages": []
+  },
+  "Part_0020": {
+    "cost": 0.83,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [
+      "Manuf_0008"
+    ],
+    "in_stages": []
+  },
+  "Part_0021": {
+    "cost": 0.49,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 19.0
+    },
+    "out_stages": [
+      "Manuf_0008"
+    ],
+    "in_stages": []
+  },
+  "Part_0022": {
+    "cost": 0.35,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 19.0
+    },
+    "out_stages": [
+      "Manuf_0009"
+    ],
+    "in_stages": []
+  },
+  "Part_0023": {
+    "cost": 0.69,
+    "rel_depth": 2,
+    "classification": "PART",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 21.0
+    },
+    "out_stages": [
+      "Manuf_0009"
+    ],
+    "in_stages": []
+  },
+  "Trans_0001": {
+    "cost": 5.0,
+    "rel_depth": 2,
+    "classification": "TRANS",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 7.5,
+      "pmf": {
+        "5.0": 0.3,
+        "8.0": 0.5,
+        "10.0": 0.2
+      }
+    },
+    "out_stages": [
+      "Manuf_0009"
+    ],
+    "in_stages": [
+      "Part_0007"
+    ]
+  },
+  "Trans_0002": {
+    "cost": 14.0,
+    "rel_depth": 2,
+    "classification": "TRANS",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 7.5,
+      "pmf": {
+        "5.0": 0.3,
+        "8.0": 0.5,
+        "10.0": 0.2
+      }
+    },
+    "out_stages": [
+      "Manuf_0006",
+      "Manuf_0007",
+      "Manuf_0008",
+      "Manuf_0009"
+    ],
+    "in_stages": [
+      "Part_0008"
+    ]
+  },
+  "Trans_0003": {
+    "cost": 21.0,
+    "rel_depth": 2,
+    "classification": "TRANS",
+    "time": {
+      "type": "DISCRETE",
+      "mean": 9.3,
+      "pmf": {
+        "5.0": 0.2,
+        "8.0": 0.2,
+        "10.0": 0.25,
+        "12.0": 0.35
+      }
+    },
+    "out_stages": [
+      "Manuf_0003",
+      "Manuf_0004",
+      "Manuf_0005"
+    ],
+    "in_stages": [
+      "Part_0009"
+    ]
+  },
+  "Trans_0004": {
+    "cost": 0.2,
+    "rel_depth": 2,
+    "classification": "TRANS",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 20.0
+    },
+    "out_stages": [
+      "Manuf_0003",
+      "Manuf_0004",
+      "Manuf_0005",
+      "Manuf_0006",
+      "Manuf_0007",
+      "Manuf_0008"
+    ],
+    "in_stages": [
+      "Manuf_0001"
+    ]
+  },
+  "Trans_0005": {
+    "cost": 0.2,
+    "rel_depth": 2,
+    "classification": "TRANS",
+    "time": {
+      "type": "DETERMINISTIC",
+      "mean": 23.0
+    },
+    "out_stages": [
+      "Manuf_0009"
+    ],
+    "in_stages": [
+      "Manuf_0002"
+    ]
+  }
+}
