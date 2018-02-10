@@ -33,4 +33,4 @@ class Stage {
   }
 }
 
-export default Process;
+export default Stage;
