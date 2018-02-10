@@ -33,7 +33,8 @@ module.exports = {
             }
           }
         }]
-      }
+      },
+      { test: /\.json$/, loader: 'json-loader', exclude: /node_modules/ },
     ]
   },
   plugins: [HtmlWebpackPluginConfig],
