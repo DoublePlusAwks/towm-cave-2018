@@ -5,6 +5,8 @@
 import { DataSet, Network } from 'vis/index-network';
 import 'vis/dist/vis-network.min.css';
 
+import Stage from './Stage';
+
 console.log('Hey guys and ladies!!')
 
 // create an array with nodes
