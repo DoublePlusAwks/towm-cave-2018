@@ -1,4 +1,5 @@
-import * as chance from 'chance';
+import Chance from 'chance';
+const chance = Chance();
 
 class Stage {
   constructor({ time, inStages, outStages, ...info }) {
@@ -12,7 +13,7 @@ class Stage {
     const next = prev;
     const { info } = this;
     for (var i = 0; i < amnt; i++) {
-      next.cost += info.stageCost;
+      next.cost += info.cost;
       next.time += this._sample();
     }
     return next;
@@ -21,11 +22,11 @@ class Stage {
   _sample = () => {
     const time = this.time;
     switch(time.type) {
-      case 'DET':
-        return time.avg;
-      case 'NORM':
+      case 'DETERMINISTIC':
+        return time.mean;
+      case 'NORMAL':
         return chance.normal({ mean: time.mean, dev: time.dev });
-      case 'DISC':
+      case 'DIST':
         return chance.weighted(Object.keys(time.pmf), Object.values(time.pmf));
       default:
         return 0;

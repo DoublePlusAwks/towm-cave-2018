@@ -7,7 +7,7 @@ chance = Chance();
 
 class Runner {
   constructor() {
-    this.data = aircraftData.default;
+    this.data = cerealData.default;
     this.sinks = {};
     for (let sink of this._getSinks()) {
       const demand = this.data[sink].demand;
@@ -15,6 +15,10 @@ class Runner {
     }
     this.sources = this._getSources();
     this.amnts = this._getAmnts(this.sinks);
+    this.stages = {};
+    for (let [key, value] of Object.entries(this.data)) {
+      this.stages[key] = new Stage(value);
+    }
   }
 
   _getSinks = () => {
@@ -22,19 +26,24 @@ class Runner {
     return Object.keys(data).filter(key => data[key].outStages.length === 0);
   }
 
+  _getSources = () => {
+    const { data } = this;
+    return Object.keys(data).filter(key => data[key].inStages.length === 0);
+  }
+
   _getAmnts = (sinks) => {
     const { data } = this;
     const amnts = {};
     for (let [key, demand] of Object.entries(sinks)) {
-      // console.log(data[key]);
+      amnts[key] = {};
       let inStages = data[key].inStages;
       for (let i = 0; i < inStages.length; i++) {
         const curr = inStages[i];
-        if (amnts[curr]) {
-          amnts[curr] += demand;
+        if (amnts[key][curr]) {
+          amnts[key][curr] += demand;
         }
         else {
-          amnts[curr] = demand;
+          amnts[key][curr] = demand;
         }
         inStages.push(...data[curr].inStages);
       }
@@ -42,13 +51,17 @@ class Runner {
     return amnts;
   }
 
-  _getSources = () => {
-    const { data } = this;
-    return Object.keys(data).filter(key => data[key].inStages.length === 0);
-  }
-
   run = () => {
-    
+    const { amnts, stages } = this;
+    const sim = {};
+    for (let [sink, stgs] of Object.entries(amnts)) {
+      sim[sink] = { cost: 0, time: 0 };
+      for (let [stageKey, amnt] of Object.entries(stgs)) {
+        stages[stageKey].process(sim[sink], amnt);
+      }
+    }
+    console.log(sim);
+    return sim;
   }
 }
 
