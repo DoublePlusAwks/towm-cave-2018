@@ -15,7 +15,7 @@ for title in titles:
         name = node["Stage Name"]
         res[name] = {}
         res[name]["cost"] = node["stageCost"]
-        res[name]["rel_depth"] = node["relDepth"]
+        res[name]["relDepth"] = node["relDepth"]
         res[name]["classification"] = node["stageClassification"].upper()
         if not math.isnan(node["avgDemand"]):
             res[name]["demand"] = {"avg": node["avgDemand"], "dev": node["stdDevDemand"]}
@@ -32,8 +32,8 @@ for title in titles:
         else:
             res[name]["time"] = {"type": "DETERMINISTIC", "mean": node["stageTime"]}
             
-        res[name]["out_stages"] = ll[ll["sourceStage"] == name]["destinationStage"].tolist()
-        res[name]["in_stages"] = ll[ll["destinationStage"] == name]["sourceStage"].tolist()
+        res[name]["outStages"] = ll[ll["sourceStage"] == name]["destinationStage"].tolist()
+        res[name]["inStages"] = ll[ll["destinationStage"] == name]["sourceStage"].tolist()
     
     with open("{}/data.json".format(title), "w") as file:
         json.dump(res, file, indent=2)
