@@ -213,9 +213,12 @@ d3.json("Perfume.json", function(error, graph) {
       tooltip.style("visibility", "hidden");
       return
     }
+    var splitId = d.id.split('_');
+    var processedId = splitId[0] + ' #' + parseInt(splitId[1]);
 
-    tooltip.html("<strong>ID:</strong> <span style='color:red'>" + d.id + "</span><br /><br /><strong>Weight:</strong> <span style='color:red'>" + d.cost + "</span>");
-    // tooltip.style("top", d3.event.pageY - 80 + "px").style("left", d3.event.pageX - 70 + "px").style("visibility", "visible");
+    tooltip.html("<strong>ID:</strong> <span style='color:" + color(d.group) + "'>" + processedId +
+    "</span><br /><br /><strong>Volume:</strong> <span style='color:" + color(d.group) + "'>" + d.weight + "</span>" +
+    "<br /><br /><strong>Per Unit Cost:</strong> <span style='color:" + color(d.group) + "'>" + d.cost + "</span>");
 
     width = tooltip.node().getBoundingClientRect().width
     height = tooltip.node().getBoundingClientRect().height
