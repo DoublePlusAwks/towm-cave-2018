@@ -3,1302 +3,1302 @@
     {
       "id": "Dist_0001",
       "group": 4,
-      "weight": 0,
+      "weight": 139,
       "relDepth": 1,
       "cost": 0.25
     },
     {
       "id": "Dist_0002",
       "group": 4,
-      "weight": 304,
+      "weight": 347,
       "relDepth": 1,
       "cost": 0.21
     },
     {
       "id": "Dist_0003",
       "group": 4,
-      "weight": 104,
+      "weight": 514,
       "relDepth": 1,
       "cost": 0.27
     },
     {
       "id": "Dist_0004",
       "group": 4,
-      "weight": 28,
+      "weight": 136,
       "relDepth": 1,
       "cost": 0.18
     },
     {
       "id": "Dist_0005",
       "group": 4,
-      "weight": 366,
+      "weight": 658,
       "relDepth": 1,
       "cost": 0.22
     },
     {
       "id": "Dist_0006",
       "group": 4,
-      "weight": 219,
+      "weight": 275,
       "relDepth": 1,
       "cost": 0.25
     },
     {
       "id": "Dist_0007",
       "group": 4,
-      "weight": 34,
+      "weight": 739,
       "relDepth": 1,
       "cost": 0.2
     },
     {
       "id": "Dist_0008",
       "group": 4,
-      "weight": 468,
+      "weight": 0,
       "relDepth": 1,
       "cost": 0.21
     },
     {
       "id": "Dist_0009",
       "group": 4,
-      "weight": 389,
+      "weight": 177,
       "relDepth": 1,
       "cost": 0.23
     },
     {
       "id": "Dist_0010",
       "group": 4,
-      "weight": 2413,
+      "weight": 496,
       "relDepth": 1,
       "cost": 0.32
     },
     {
       "id": "Dist_0011",
       "group": 4,
-      "weight": 2103,
+      "weight": 137,
       "relDepth": 1,
       "cost": 0.23
     },
     {
       "id": "Dist_0012",
       "group": 4,
-      "weight": 2591,
+      "weight": 151,
       "relDepth": 1,
       "cost": 0.17
     },
     {
       "id": "Dist_0013",
       "group": 4,
-      "weight": 1979,
+      "weight": 595,
       "relDepth": 1,
       "cost": 0.29
     },
     {
       "id": "Dist_0014",
       "group": 4,
-      "weight": 1546,
+      "weight": 2190,
       "relDepth": 1,
       "cost": 0.14
     },
     {
       "id": "Dist_0015",
       "group": 4,
-      "weight": 499,
+      "weight": 265,
       "relDepth": 1,
       "cost": 0.17
     },
     {
       "id": "Dist_0016",
       "group": 4,
-      "weight": 1136,
+      "weight": 614,
       "relDepth": 1,
       "cost": 0.29
     },
     {
       "id": "Dist_0017",
       "group": 4,
-      "weight": 0,
+      "weight": 284,
       "relDepth": 1,
       "cost": 0.21
     },
     {
       "id": "Manuf_0001",
       "group": 3,
-      "weight": 38617,
+      "weight": 5639,
       "relDepth": 5,
       "cost": 0.23
     },
     {
       "id": "Manuf_0002",
       "group": 3,
-      "weight": 7773,
+      "weight": 5639,
       "relDepth": 5,
       "cost": 0.37
     },
     {
       "id": "Manuf_0003",
       "group": 3,
-      "weight": 802,
+      "weight": 5639,
       "relDepth": 5,
       "cost": 0.25
     },
     {
       "id": "Manuf_0004",
       "group": 3,
-      "weight": 1110,
+      "weight": 5639,
       "relDepth": 5,
       "cost": 0.29
     },
     {
       "id": "Manuf_0005",
       "group": 3,
-      "weight": 26147,
+      "weight": 284,
       "relDepth": 5,
       "cost": 0.75
     },
     {
       "id": "Manuf_0006",
       "group": 3,
-      "weight": 152,
+      "weight": 284,
       "relDepth": 5,
       "cost": 0.26
     },
     {
       "id": "Manuf_0007",
       "group": 3,
-      "weight": 298,
+      "weight": 284,
       "relDepth": 5,
       "cost": 0.36
     },
     {
       "id": "Manuf_0008",
       "group": 3,
-      "weight": 10108,
+      "weight": 284,
       "relDepth": 5,
       "cost": 0.34
     },
     {
       "id": "Manuf_0009",
       "group": 3,
-      "weight": 7773,
+      "weight": 284,
       "relDepth": 5,
       "cost": 0.27
     },
     {
       "id": "Manuf_0010",
       "group": 3,
-      "weight": 19000,
+      "weight": 284,
       "relDepth": 5,
       "cost": 0.75
     },
     {
       "id": "Manuf_0011",
       "group": 3,
-      "weight": 19000,
+      "weight": 347,
       "relDepth": 4,
       "cost": 0.72
     },
     {
       "id": "Manuf_0012",
       "group": 3,
-      "weight": 19000,
+      "weight": 136,
       "relDepth": 4,
       "cost": 1.02
     },
     {
       "id": "Manuf_0013",
       "group": 3,
-      "weight": 19000,
+      "weight": 658,
       "relDepth": 4,
       "cost": 0.72
     },
     {
       "id": "Manuf_0014",
       "group": 3,
-      "weight": 19000,
+      "weight": 275,
       "relDepth": 4,
       "cost": 0.73
     },
     {
       "id": "Manuf_0015",
       "group": 3,
-      "weight": 19000,
+      "weight": 739,
       "relDepth": 4,
       "cost": 1.3
     },
     {
       "id": "Manuf_0016",
       "group": 3,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 4,
       "cost": 1.03
     },
     {
       "id": "Manuf_0017",
       "group": 3,
-      "weight": 19000,
+      "weight": 177,
       "relDepth": 4,
       "cost": 0.75
     },
     {
       "id": "Manuf_0018",
       "group": 3,
-      "weight": 19000,
+      "weight": 496,
       "relDepth": 4,
       "cost": 0.82
     },
     {
       "id": "Manuf_0019",
       "group": 3,
-      "weight": 19000,
+      "weight": 137,
       "relDepth": 4,
       "cost": 0.86
     },
     {
       "id": "Manuf_0020",
       "group": 3,
-      "weight": 19000,
+      "weight": 151,
       "relDepth": 4,
       "cost": 0.76
     },
     {
       "id": "Manuf_0021",
       "group": 3,
-      "weight": 19000,
+      "weight": 595,
       "relDepth": 4,
       "cost": 0.8
     },
     {
       "id": "Manuf_0022",
       "group": 3,
-      "weight": 19000,
+      "weight": 2190,
       "relDepth": 4,
       "cost": 0.91
     },
     {
       "id": "Manuf_0023",
       "group": 3,
-      "weight": 19000,
+      "weight": 265,
       "relDepth": 4,
       "cost": 0.86
     },
     {
       "id": "Manuf_0024",
       "group": 3,
-      "weight": 19000,
+      "weight": 614,
       "relDepth": 4,
       "cost": 0.6
     },
     {
       "id": "Manuf_0025",
       "group": 3,
-      "weight": 19000,
+      "weight": 284,
       "relDepth": 4,
       "cost": 1.53
     },
     {
       "id": "Manuf_0026",
       "group": 3,
-      "weight": 19000,
+      "weight": 139,
       "relDepth": 3,
       "cost": 1.93
     },
     {
       "id": "Manuf_0027",
       "group": 3,
-      "weight": 19000,
+      "weight": 347,
       "relDepth": 3,
       "cost": 0.11
     },
     {
       "id": "Manuf_0028",
       "group": 3,
-      "weight": 19000,
+      "weight": 514,
       "relDepth": 3,
       "cost": 0.18
     },
     {
       "id": "Manuf_0029",
       "group": 3,
-      "weight": 19000,
+      "weight": 136,
       "relDepth": 3,
       "cost": 0.19
     },
     {
       "id": "Manuf_0030",
       "group": 3,
-      "weight": 19000,
+      "weight": 658,
       "relDepth": 3,
       "cost": 0.16
     },
     {
       "id": "Manuf_0031",
       "group": 3,
-      "weight": 19000,
+      "weight": 275,
       "relDepth": 3,
       "cost": 0.2
     },
     {
       "id": "Manuf_0032",
       "group": 3,
-      "weight": 19000,
+      "weight": 739,
       "relDepth": 3,
       "cost": 0.23
     },
     {
       "id": "Manuf_0033",
       "group": 3,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 3,
       "cost": 0.27
     },
     {
       "id": "Manuf_0034",
       "group": 3,
-      "weight": 19000,
+      "weight": 177,
       "relDepth": 3,
       "cost": 0.24
     },
     {
       "id": "Manuf_0035",
       "group": 3,
-      "weight": 19000,
+      "weight": 496,
       "relDepth": 3,
       "cost": 0.2
     },
     {
       "id": "Manuf_0036",
       "group": 3,
-      "weight": 19000,
+      "weight": 137,
       "relDepth": 3,
       "cost": 0.22
     },
     {
       "id": "Manuf_0037",
       "group": 3,
-      "weight": 19000,
+      "weight": 151,
       "relDepth": 3,
       "cost": 0.17
     },
     {
       "id": "Manuf_0038",
       "group": 3,
-      "weight": 19000,
+      "weight": 595,
       "relDepth": 3,
       "cost": 0.17
     },
     {
       "id": "Manuf_0039",
       "group": 3,
-      "weight": 19000,
+      "weight": 2190,
       "relDepth": 3,
       "cost": 0.22
     },
     {
       "id": "Manuf_0040",
       "group": 3,
-      "weight": 19000,
+      "weight": 265,
       "relDepth": 3,
       "cost": 0.19
     },
     {
       "id": "Manuf_0041",
       "group": 3,
-      "weight": 19000,
+      "weight": 614,
       "relDepth": 3,
       "cost": 0.2
     },
     {
       "id": "Manuf_0042",
       "group": 3,
-      "weight": 19000,
+      "weight": 284,
       "relDepth": 3,
       "cost": 0.03
     },
     {
       "id": "Manuf_0043",
       "group": 3,
-      "weight": 19000,
+      "weight": 139,
       "relDepth": 2,
       "cost": 0.12
     },
     {
       "id": "Manuf_0044",
       "group": 3,
-      "weight": 19000,
+      "weight": 347,
       "relDepth": 2,
       "cost": 0.03
     },
     {
       "id": "Manuf_0045",
       "group": 3,
-      "weight": 19000,
+      "weight": 514,
       "relDepth": 2,
       "cost": 0.2
     },
     {
       "id": "Manuf_0046",
       "group": 3,
-      "weight": 19000,
+      "weight": 136,
       "relDepth": 2,
       "cost": 0.06
     },
     {
       "id": "Manuf_0047",
       "group": 3,
-      "weight": 19000,
+      "weight": 658,
       "relDepth": 2,
       "cost": 0.06
     },
     {
       "id": "Manuf_0048",
       "group": 3,
-      "weight": 19000,
+      "weight": 275,
       "relDepth": 2,
       "cost": 0.03
     },
     {
       "id": "Manuf_0049",
       "group": 3,
-      "weight": 19000,
+      "weight": 739,
       "relDepth": 2,
       "cost": 0.02
     },
     {
       "id": "Manuf_0050",
       "group": 3,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 2,
       "cost": 0.01
     },
     {
       "id": "Manuf_0051",
       "group": 3,
-      "weight": 19000,
+      "weight": 177,
       "relDepth": 2,
       "cost": 0.03
     },
     {
       "id": "Manuf_0052",
       "group": 3,
-      "weight": 19000,
+      "weight": 496,
       "relDepth": 2,
       "cost": 0.02
     },
     {
       "id": "Manuf_0053",
       "group": 3,
-      "weight": 19000,
+      "weight": 137,
       "relDepth": 2,
       "cost": 0.01
     },
     {
       "id": "Manuf_0054",
       "group": 3,
-      "weight": 19000,
+      "weight": 151,
       "relDepth": 2,
       "cost": 0.32
     },
     {
       "id": "Manuf_0055",
       "group": 3,
-      "weight": 19000,
+      "weight": 595,
       "relDepth": 2,
       "cost": 0.02
     },
     {
       "id": "Manuf_0056",
       "group": 3,
-      "weight": 19000,
+      "weight": 2190,
       "relDepth": 2,
       "cost": 0.33
     },
     {
       "id": "Manuf_0057",
       "group": 3,
-      "weight": 19000,
+      "weight": 265,
       "relDepth": 2,
       "cost": 0.35
     },
     {
       "id": "Manuf_0058",
       "group": 3,
-      "weight": 19000,
+      "weight": 614,
       "relDepth": 2,
       "cost": 0.22
     },
     {
       "id": "Manuf_0059",
       "group": 3,
-      "weight": 19000,
+      "weight": 284,
       "relDepth": 2,
       "cost": 0.54
     },
     {
       "id": "Part_0001",
       "group": 1,
-      "weight": 46390,
+      "weight": 49273,
       "relDepth": 6,
       "cost": 0.33
     },
     {
       "id": "Part_0002",
       "group": 1,
-      "weight": 46390,
+      "weight": 52397,
       "relDepth": 6,
       "cost": 1.02
     },
     {
       "id": "Part_0003",
       "group": 1,
-      "weight": 46390,
+      "weight": 49273,
       "relDepth": 6,
       "cost": 0.92
     },
     {
       "id": "Part_0004",
       "group": 1,
-      "weight": 46390,
+      "weight": 49273,
       "relDepth": 6,
       "cost": 0.74
     },
     {
       "id": "Part_0005",
       "group": 1,
-      "weight": 46390,
+      "weight": 4909,
       "relDepth": 6,
       "cost": 8.02
     },
     {
       "id": "Part_0006",
       "group": 1,
-      "weight": 46390,
+      "weight": 3124,
       "relDepth": 6,
       "cost": 0.3
     },
     {
       "id": "Part_0007",
       "group": 1,
-      "weight": 7773,
+      "weight": 1141,
       "relDepth": 5,
       "cost": 1.06
     },
     {
       "id": "Part_0008",
       "group": 1,
-      "weight": 18331,
+      "weight": 1141,
       "relDepth": 5,
       "cost": 1.41
     },
     {
       "id": "Part_0009",
       "group": 1,
-      "weight": 28059,
+      "weight": 1794,
       "relDepth": 4,
       "cost": 0.05
     },
     {
       "id": "Part_0010",
       "group": 1,
-      "weight": 802,
+      "weight": 7717,
       "relDepth": 4,
       "cost": 0.1
     },
     {
       "id": "Part_0011",
       "group": 1,
-      "weight": 954,
+      "weight": 139,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0012",
       "group": 1,
-      "weight": 1110,
+      "weight": 139,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0013",
       "group": 1,
-      "weight": 1408,
+      "weight": 347,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0014",
       "group": 1,
-      "weight": 26147,
+      "weight": 347,
       "relDepth": 4,
       "cost": 0.05
     },
     {
       "id": "Part_0015",
       "group": 1,
-      "weight": 26147,
+      "weight": 514,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0016",
       "group": 1,
-      "weight": 44028,
+      "weight": 514,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0017",
       "group": 1,
-      "weight": 152,
+      "weight": 136,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0018",
       "group": 1,
-      "weight": 298,
+      "weight": 136,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0019",
       "group": 1,
-      "weight": 46390,
+      "weight": 658,
       "relDepth": 4,
       "cost": 0.04
     },
     {
       "id": "Part_0020",
       "group": 1,
-      "weight": 10108,
+      "weight": 658,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0021",
       "group": 1,
-      "weight": 10108,
+      "weight": 275,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0022",
       "group": 1,
-      "weight": 7773,
+      "weight": 275,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0023",
       "group": 1,
-      "weight": 7773,
+      "weight": 5923,
       "relDepth": 4,
       "cost": 0.04
     },
     {
       "id": "Part_0024",
       "group": 1,
-      "weight": 19000,
+      "weight": 739,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0025",
       "group": 1,
-      "weight": 19000,
+      "weight": 739,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0026",
       "group": 1,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0027",
       "group": 1,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0028",
       "group": 1,
-      "weight": 19000,
+      "weight": 177,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0029",
       "group": 1,
-      "weight": 19000,
+      "weight": 177,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0030",
       "group": 1,
-      "weight": 19000,
+      "weight": 496,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0031",
       "group": 1,
-      "weight": 19000,
+      "weight": 496,
       "relDepth": 4,
       "cost": 0.04
     },
     {
       "id": "Part_0032",
       "group": 1,
-      "weight": 19000,
+      "weight": 137,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0033",
       "group": 1,
-      "weight": 19000,
+      "weight": 137,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0034",
       "group": 1,
-      "weight": 19000,
+      "weight": 151,
       "relDepth": 4,
       "cost": 0.05
     },
     {
       "id": "Part_0035",
       "group": 1,
-      "weight": 19000,
+      "weight": 151,
       "relDepth": 4,
       "cost": 0.04
     },
     {
       "id": "Part_0036",
       "group": 1,
-      "weight": 19000,
+      "weight": 595,
       "relDepth": 4,
       "cost": 0.02
     },
     {
       "id": "Part_0037",
       "group": 1,
-      "weight": 19000,
+      "weight": 595,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0038",
       "group": 1,
-      "weight": 19000,
+      "weight": 2190,
       "relDepth": 4,
       "cost": 0.04
     },
     {
       "id": "Part_0039",
       "group": 1,
-      "weight": 19000,
+      "weight": 2190,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0040",
       "group": 1,
-      "weight": 19000,
+      "weight": 265,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0041",
       "group": 1,
-      "weight": 19000,
+      "weight": 265,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0042",
       "group": 1,
-      "weight": 19000,
+      "weight": 614,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0043",
       "group": 1,
-      "weight": 19000,
+      "weight": 614,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0044",
       "group": 1,
-      "weight": 19000,
+      "weight": 284,
       "relDepth": 4,
       "cost": 0.03
     },
     {
       "id": "Part_0045",
       "group": 1,
-      "weight": 19000,
+      "weight": 284,
       "relDepth": 4,
       "cost": 0.04
     },
     {
       "id": "Part_0046",
       "group": 1,
-      "weight": 19000,
+      "weight": 7717,
       "relDepth": 3,
       "cost": 0.4
     },
     {
       "id": "Part_0047",
       "group": 1,
-      "weight": 19000,
+      "weight": 139,
       "relDepth": 3,
       "cost": 0.03
     },
     {
       "id": "Part_0048",
       "group": 1,
-      "weight": 19000,
+      "weight": 7717,
       "relDepth": 3,
       "cost": 0.18
     },
     {
       "id": "Part_0049",
       "group": 1,
-      "weight": 19000,
+      "weight": 7717,
       "relDepth": 3,
       "cost": 0.03
     },
     {
       "id": "Part_0050",
       "group": 1,
-      "weight": 19000,
+      "weight": 347,
       "relDepth": 3,
       "cost": 0.06
     },
     {
       "id": "Part_0051",
       "group": 1,
-      "weight": 19000,
+      "weight": 514,
       "relDepth": 3,
       "cost": 0.04
     },
     {
       "id": "Part_0052",
       "group": 1,
-      "weight": 19000,
+      "weight": 136,
       "relDepth": 3,
       "cost": 0.05
     },
     {
       "id": "Part_0053",
       "group": 1,
-      "weight": 19000,
+      "weight": 658,
       "relDepth": 3,
       "cost": 0.04
     },
     {
       "id": "Part_0054",
       "group": 1,
-      "weight": 19000,
+      "weight": 275,
       "relDepth": 3,
       "cost": 0.05
     },
     {
       "id": "Part_0055",
       "group": 1,
-      "weight": 19000,
+      "weight": 275,
       "relDepth": 3,
       "cost": 0.05
     },
     {
       "id": "Part_0056",
       "group": 1,
-      "weight": 19000,
+      "weight": 739,
       "relDepth": 3,
       "cost": 0.04
     },
     {
       "id": "Part_0057",
       "group": 1,
-      "weight": 19000,
+      "weight": 739,
       "relDepth": 3,
       "cost": 0.04
     },
     {
       "id": "Part_0058",
       "group": 1,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 3,
       "cost": 0.04
     },
     {
       "id": "Part_0059",
       "group": 1,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 3,
       "cost": 0.03
     },
     {
       "id": "Part_0060",
       "group": 1,
-      "weight": 19000,
+      "weight": 177,
       "relDepth": 3,
       "cost": 0.06
     },
     {
       "id": "Part_0061",
       "group": 1,
-      "weight": 19000,
+      "weight": 177,
       "relDepth": 3,
       "cost": 0.03
     },
     {
       "id": "Part_0062",
       "group": 1,
-      "weight": 19000,
+      "weight": 496,
       "relDepth": 3,
       "cost": 0.03
     },
     {
       "id": "Part_0063",
       "group": 1,
-      "weight": 19000,
+      "weight": 496,
       "relDepth": 3,
       "cost": 0.04
     },
     {
       "id": "Part_0064",
       "group": 1,
-      "weight": 19000,
+      "weight": 137,
       "relDepth": 3,
       "cost": 0.05
     },
     {
       "id": "Part_0065",
       "group": 1,
-      "weight": 19000,
+      "weight": 137,
       "relDepth": 3,
       "cost": 0.02
     },
     {
       "id": "Part_0066",
       "group": 1,
-      "weight": 19000,
+      "weight": 151,
       "relDepth": 3,
       "cost": 0.05
     },
     {
       "id": "Part_0067",
       "group": 1,
-      "weight": 19000,
+      "weight": 151,
       "relDepth": 3,
       "cost": 0.05
     },
     {
       "id": "Part_0068",
       "group": 1,
-      "weight": 19000,
+      "weight": 595,
       "relDepth": 3,
       "cost": 0.05
     },
     {
       "id": "Part_0069",
       "group": 1,
-      "weight": 19000,
+      "weight": 595,
       "relDepth": 3,
       "cost": 0.03
     },
     {
       "id": "Part_0070",
       "group": 1,
-      "weight": 19000,
+      "weight": 2190,
       "relDepth": 3,
       "cost": 0.04
     },
     {
       "id": "Part_0071",
       "group": 1,
-      "weight": 19000,
+      "weight": 265,
       "relDepth": 3,
       "cost": 0.04
     },
     {
       "id": "Part_0072",
       "group": 1,
-      "weight": 19000,
+      "weight": 265,
       "relDepth": 3,
       "cost": 0.05
     },
     {
       "id": "Part_0073",
       "group": 1,
-      "weight": 19000,
+      "weight": 614,
       "relDepth": 3,
       "cost": 0.05
     },
     {
       "id": "Part_0074",
       "group": 1,
-      "weight": 19000,
+      "weight": 614,
       "relDepth": 3,
       "cost": 0.02
     },
     {
       "id": "Part_0075",
       "group": 1,
-      "weight": 19000,
+      "weight": 284,
       "relDepth": 3,
       "cost": 0.05
     },
     {
       "id": "Part_0076",
       "group": 1,
-      "weight": 19000,
+      "weight": 284,
       "relDepth": 3,
       "cost": 0.03
     },
     {
       "id": "Retail_0001",
       "group": 5,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0002",
       "group": 5,
-      "weight": 19000,
+      "weight": 139,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0003",
       "group": 5,
-      "weight": 19000,
+      "weight": 347,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0004",
       "group": 5,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0005",
       "group": 5,
-      "weight": 19000,
+      "weight": 395,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0006",
       "group": 5,
-      "weight": 19000,
+      "weight": 119,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0007",
       "group": 5,
-      "weight": 19000,
+      "weight": 136,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0008",
       "group": 5,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0009",
       "group": 5,
-      "weight": 19000,
+      "weight": 202,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0010",
       "group": 5,
-      "weight": 19000,
+      "weight": 456,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0011",
       "group": 5,
-      "weight": 19000,
+      "weight": 275,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0012",
       "group": 5,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0013",
       "group": 5,
-      "weight": 19000,
+      "weight": 654,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0014",
       "group": 5,
-      "weight": 19000,
+      "weight": 85,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0015",
       "group": 5,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0016",
       "group": 5,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0017",
       "group": 5,
-      "weight": 19000,
+      "weight": 70,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0018",
       "group": 5,
-      "weight": 19000,
+      "weight": 107,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0019",
       "group": 5,
-      "weight": 19000,
+      "weight": 219,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0020",
       "group": 5,
-      "weight": 19000,
+      "weight": 277,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0021",
       "group": 5,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0022",
       "group": 5,
-      "weight": 19000,
+      "weight": 137,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0023",
       "group": 5,
-      "weight": 19000,
+      "weight": 18,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0024",
       "group": 5,
-      "weight": 19000,
+      "weight": 133,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0025",
       "group": 5,
-      "weight": 19000,
+      "weight": 322,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0026",
       "group": 5,
-      "weight": 19000,
+      "weight": 273,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0027",
       "group": 5,
-      "weight": 19000,
+      "weight": 260,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0028",
       "group": 5,
-      "weight": 19000,
+      "weight": 1930,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0029",
       "group": 5,
-      "weight": 19000,
+      "weight": 265,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0030",
       "group": 5,
-      "weight": 19000,
+      "weight": 0,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0031",
       "group": 5,
-      "weight": 19000,
+      "weight": 19,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0032",
       "group": 5,
-      "weight": 19000,
+      "weight": 595,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0033",
       "group": 5,
-      "weight": 19000,
+      "weight": 177,
       "relDepth": 0,
       "cost": 0.0
     },
     {
       "id": "Retail_0034",
       "group": 5,
-      "weight": 19000,
+      "weight": 107,
       "relDepth": 0,
       "cost": 0.0
     }
