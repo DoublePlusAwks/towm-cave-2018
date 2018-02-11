@@ -9,14 +9,14 @@ class Stage {
     this.info = info;
   }
 
-  process = (prev, amnt) => {
-    const next = prev;
+  process = (amnt) => {
     const { info } = this;
+    const processingCosts = { cost: 0, time: 0 };
     for (var i = 0; i < amnt; i++) {
-      next.cost += info.cost;
-      next.time += this._sample();
+      processingCosts.cost += info.cost;
+      processingCosts.time += this._sample();
     }
-    return next;
+    return processingCosts;
   }
 
   _sample = () => {
@@ -26,10 +26,10 @@ class Stage {
         return time.mean;
       case 'NORMAL':
         return chance.normal({ mean: time.mean, dev: time.dev });
-      case 'DIST':
-        return chance.weighted(Object.keys(time.pmf), Object.values(time.pmf));
+      case 'DISCRETE':
+        return parseFloat(chance.weighted(Object.keys(time.pmf), Object.values(time.pmf)));
       default:
-        return 0;
+        return -1;
     }
   }
 }

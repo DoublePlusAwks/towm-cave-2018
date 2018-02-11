@@ -55,9 +55,11 @@ class Runner {
     const { amnts, stages } = this;
     const sim = {};
     for (let [sink, stgs] of Object.entries(amnts)) {
-      sim[sink] = { cost: 0, time: 0 };
+      sim[sink] = { costs: {}, times: {} };
       for (let [stageKey, amnt] of Object.entries(stgs)) {
-        stages[stageKey].process(sim[sink], amnt);
+        const processingCosts = stages[stageKey].process(amnt);
+        sim[sink].costs[stageKey] = processingCosts.cost;
+        sim[sink].times[stageKey] = processingCosts.time;
       }
     }
     console.log(sim);
