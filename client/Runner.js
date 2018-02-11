@@ -82,6 +82,96 @@ class Runner {
     return [amnts, sinkAmnts];
   }
 
+  _getTimeDists = (sinks, sources) => {
+    const { data } = this;
+    const times = {};
+
+    console.log("sources:");
+    console.log(sources);
+
+    console.log(sinks);
+    for (let node_id in sinks) {
+      console.log(node_id);
+      this._recTimeDists(sinks, sources, node_id, times);
+    }
+
+    return times;
+  }
+
+
+  _recTimeDists = (sinks, sources, node_id, times) => {
+    const {data} = this;
+
+    console.log(node_id);
+    let time = data[node_id]["time"];
+
+    if (sources.includes(node_id)) {
+      console.log("in sources");
+      console.log(time);
+      if (time["type"] === "DETERMINISTIC") {
+        console.log("deterministic");
+        times[node_id] = {'mean': time['mean'],
+                          'dev': 0};
+      }
+      else {
+        console.log("normal");
+        times[node_id] = {'mean': time['mean'],
+                          'dev': time['dev']};
+
+      }
+      console.log(times[node_id]);
+      return times[node_id];
+    }
+
+    console.log("not in sources");
+    let inStages = data[node_id].inStages;
+    console.log(inStages);
+    let mean = 0;
+    let dev = 0;
+
+    let stageMean = 0;
+    let stageDev = 0;
+
+    let maxMean = 0;
+
+    for (let inStage of inStages) {
+      console.log(times);
+      if (!(inStage in times)) {
+        console.log("time to be calculated ");
+        console.log(inStage);
+        let stageTimeDist = this._recTimeDists(sinks, sources, inStage, times);
+        stageMean = stageTimeDist["mean"];
+        stageDev = stageTimeDist["dev"];
+      }
+      else {
+        console.log("time already calculated");
+        stageMean = times[inStage]['mean'];
+        stageDev = times[inStage]['dev'];
+      }
+      if (stageMean > mean) {
+        mean = stageMean;
+      }
+      if (stageDev > dev) {
+        dev = stageDev;
+      }
+    }
+
+    if (time['type'] === "DETERMINISTIC") {
+        times[node_id] = {'mean': mean + time['mean'],
+                          'dev': dev};
+    }
+    else {
+      times[node_id] = {'mean': mean + time['mean'],
+                        'dev': Math.sqrt(dev*dev + time['dev']*time['dev'])};
+    }
+    return times[node_id];
+  }
+
+  _getSources = () => {
+    const { data } = this;
+    return Object.keys(data).filter(key => data[key].inStages.length === 0);
+  }
+
   run = () => {
     const { sinkAmnts, stages } = this;
     const sim = {};
@@ -94,6 +184,11 @@ class Runner {
       }
     }
     return sim;
+  }
+
+  run2 = () => {
+    const {sinkAmnts, sources} = this;
+    return this._getTimeDists(sinkAmnts, sources);
   }
 }
 

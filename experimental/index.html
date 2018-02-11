@@ -67,7 +67,7 @@ h1 {
   position: absolute;
   text-align: center;
   left: 0px;
-  bottom: -9px;
+  bottom: -7px;
 }
 
 /* Style northward tooltips differently */
@@ -100,7 +100,8 @@ var simulation = d3.forceSimulation()
       return height / 2;
     }))
     .force('x', d3.forceX().x(function(d) {
-      return 150 * (4-d.relDepth) + 210;
+      // return 150 * (4-d.relDepth) + 210;
+      return 100 * (6-d.relDepth) + 10;
     }).strength(0.15))
     .force('collision', d3.forceCollide().radius(function(d) {
       return 2 * d.radius;
@@ -134,7 +135,7 @@ svg.append("svg:defs").selectAll("marker")
   .append("svg:path")
     .attr("d", "M0,-5L10,0L0,5");
 
-d3.json("Cereal.json", function(error, graph) {
+d3.json("Perfume.json", function(error, graph) {
   if (error) throw error;
 
   var linkedById = {};
@@ -191,7 +192,8 @@ d3.json("Cereal.json", function(error, graph) {
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-      .attr("r", function(d) { return 16 * Math.pow(d.weight / 8584, 0.3) + 5; })
+      // .attr("r", function(d) { return 16 * Math.pow(d.weight / 8584, 0.3) + 5; })
+      .attr("r", function(d) { return 5 * Math.pow(d.weight / 8584, 0.3) + 5; })
       .attr("fill", function(d) { return color(d.group); })
       .on("mousedown", mousedown)
       .call(d3.drag()
@@ -212,7 +214,7 @@ d3.json("Cereal.json", function(error, graph) {
       return
     }
 
-    tooltip.html("<strong>ID:</strong> <span style='color:red'>" + d.id + "</span><br /><br /><strong>Weight:</strong> <span style='color:red'>" + d.weight + "</span>");
+    tooltip.html("<strong>ID:</strong> <span style='color:red'>" + d.id + "</span><br /><br /><strong>Weight:</strong> <span style='color:red'>" + d.cost + "</span>");
     // tooltip.style("top", d3.event.pageY - 80 + "px").style("left", d3.event.pageX - 70 + "px").style("visibility", "visible");
 
     width = tooltip.node().getBoundingClientRect().width
