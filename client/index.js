@@ -6,7 +6,7 @@ import $ from "jquery";
 import * as d3 from "d3";
 import Runner from './Runner';
 
-const runner = new Runner('CEREAL');
+const runner = new Runner('PERFUME');
 const sim = runner.run();
 console.log(runner);
 console.log(sim);
@@ -52,7 +52,7 @@ for (let sinkKey of Object.keys(sim)) {
   var z = d3.scaleOrdinal()
     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
-  d3.select("body").append("h1").html(sinkKey)
+  d3.select("body").append("h1").html(sinkKey);
 
   var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
