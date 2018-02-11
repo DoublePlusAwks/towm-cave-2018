@@ -2,747 +2,1119 @@
   "nodes": [
     {
       "id": "Dist_0001",
-      "group": 3
+      "group": 4,
+      "weight": 0,
+      "relDepth": 1
     },
     {
       "id": "Dist_0002",
-      "group": 3
+      "group": 4,
+      "weight": 304,
+      "relDepth": 1
     },
     {
       "id": "Dist_0003",
-      "group": 3
+      "group": 4,
+      "weight": 104,
+      "relDepth": 1
     },
     {
       "id": "Dist_0004",
-      "group": 3
+      "group": 4,
+      "weight": 28,
+      "relDepth": 1
     },
     {
       "id": "Dist_0005",
-      "group": 3
+      "group": 4,
+      "weight": 366,
+      "relDepth": 1
     },
     {
       "id": "Dist_0006",
-      "group": 3
+      "group": 4,
+      "weight": 219,
+      "relDepth": 1
     },
     {
       "id": "Dist_0007",
-      "group": 3
+      "group": 4,
+      "weight": 34,
+      "relDepth": 1
     },
     {
       "id": "Dist_0008",
-      "group": 3
+      "group": 4,
+      "weight": 468,
+      "relDepth": 1
     },
     {
       "id": "Dist_0009",
-      "group": 3
+      "group": 4,
+      "weight": 389,
+      "relDepth": 1
     },
     {
       "id": "Dist_0010",
-      "group": 3
+      "group": 4,
+      "weight": 2413,
+      "relDepth": 1
     },
     {
       "id": "Dist_0011",
-      "group": 3
+      "group": 4,
+      "weight": 2103,
+      "relDepth": 1
     },
     {
       "id": "Dist_0012",
-      "group": 3
+      "group": 4,
+      "weight": 2591,
+      "relDepth": 1
     },
     {
       "id": "Dist_0013",
-      "group": 3
+      "group": 4,
+      "weight": 1979,
+      "relDepth": 1
     },
     {
       "id": "Dist_0014",
-      "group": 3
+      "group": 4,
+      "weight": 1546,
+      "relDepth": 1
     },
     {
       "id": "Dist_0015",
-      "group": 3
+      "group": 4,
+      "weight": 499,
+      "relDepth": 1
     },
     {
       "id": "Dist_0016",
-      "group": 3
+      "group": 4,
+      "weight": 1136,
+      "relDepth": 1
     },
     {
       "id": "Dist_0017",
-      "group": 3
+      "group": 4,
+      "weight": 0,
+      "relDepth": 1
     },
     {
       "id": "Manuf_0001",
-      "group": 2
+      "group": 3,
+      "weight": 38617,
+      "relDepth": 5
     },
     {
       "id": "Manuf_0002",
-      "group": 2
+      "group": 3,
+      "weight": 7773,
+      "relDepth": 5
     },
     {
       "id": "Manuf_0003",
-      "group": 2
+      "group": 3,
+      "weight": 802,
+      "relDepth": 5
     },
     {
       "id": "Manuf_0004",
-      "group": 2
+      "group": 3,
+      "weight": 1110,
+      "relDepth": 5
     },
     {
       "id": "Manuf_0005",
-      "group": 2
+      "group": 3,
+      "weight": 26147,
+      "relDepth": 5
     },
     {
       "id": "Manuf_0006",
-      "group": 2
+      "group": 3,
+      "weight": 152,
+      "relDepth": 5
     },
     {
       "id": "Manuf_0007",
-      "group": 2
+      "group": 3,
+      "weight": 298,
+      "relDepth": 5
     },
     {
       "id": "Manuf_0008",
-      "group": 2
+      "group": 3,
+      "weight": 10108,
+      "relDepth": 5
     },
     {
       "id": "Manuf_0009",
-      "group": 2
+      "group": 3,
+      "weight": 7773,
+      "relDepth": 5
     },
     {
       "id": "Manuf_0010",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 5
     },
     {
       "id": "Manuf_0011",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0012",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0013",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0014",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0015",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0016",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0017",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0018",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0019",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0020",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0021",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0022",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0023",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0024",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0025",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Manuf_0026",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0027",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0028",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0029",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0030",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0031",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0032",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0033",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0034",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0035",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0036",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0037",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0038",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0039",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0040",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0041",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0042",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Manuf_0043",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0044",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0045",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0046",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0047",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0048",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0049",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0050",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0051",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0052",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0053",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0054",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0055",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0056",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0057",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0058",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Manuf_0059",
-      "group": 2
+      "group": 3,
+      "weight": 19000,
+      "relDepth": 2
     },
     {
       "id": "Part_0001",
-      "group": 1
+      "group": 1,
+      "weight": 46390,
+      "relDepth": 6
     },
     {
       "id": "Part_0002",
-      "group": 1
+      "group": 1,
+      "weight": 46390,
+      "relDepth": 6
     },
     {
       "id": "Part_0003",
-      "group": 1
+      "group": 1,
+      "weight": 46390,
+      "relDepth": 6
     },
     {
       "id": "Part_0004",
-      "group": 1
+      "group": 1,
+      "weight": 46390,
+      "relDepth": 6
     },
     {
       "id": "Part_0005",
-      "group": 1
+      "group": 1,
+      "weight": 46390,
+      "relDepth": 6
     },
     {
       "id": "Part_0006",
-      "group": 1
+      "group": 1,
+      "weight": 46390,
+      "relDepth": 6
     },
     {
       "id": "Part_0007",
-      "group": 1
+      "group": 1,
+      "weight": 7773,
+      "relDepth": 5
     },
     {
       "id": "Part_0008",
-      "group": 1
+      "group": 1,
+      "weight": 18331,
+      "relDepth": 5
     },
     {
       "id": "Part_0009",
-      "group": 1
+      "group": 1,
+      "weight": 28059,
+      "relDepth": 4
     },
     {
       "id": "Part_0010",
-      "group": 1
+      "group": 1,
+      "weight": 802,
+      "relDepth": 4
     },
     {
       "id": "Part_0011",
-      "group": 1
+      "group": 1,
+      "weight": 954,
+      "relDepth": 4
     },
     {
       "id": "Part_0012",
-      "group": 1
+      "group": 1,
+      "weight": 1110,
+      "relDepth": 4
     },
     {
       "id": "Part_0013",
-      "group": 1
+      "group": 1,
+      "weight": 1408,
+      "relDepth": 4
     },
     {
       "id": "Part_0014",
-      "group": 1
+      "group": 1,
+      "weight": 26147,
+      "relDepth": 4
     },
     {
       "id": "Part_0015",
-      "group": 1
+      "group": 1,
+      "weight": 26147,
+      "relDepth": 4
     },
     {
       "id": "Part_0016",
-      "group": 1
+      "group": 1,
+      "weight": 44028,
+      "relDepth": 4
     },
     {
       "id": "Part_0017",
-      "group": 1
+      "group": 1,
+      "weight": 152,
+      "relDepth": 4
     },
     {
       "id": "Part_0018",
-      "group": 1
+      "group": 1,
+      "weight": 298,
+      "relDepth": 4
     },
     {
       "id": "Part_0019",
-      "group": 1
+      "group": 1,
+      "weight": 46390,
+      "relDepth": 4
     },
     {
       "id": "Part_0020",
-      "group": 1
+      "group": 1,
+      "weight": 10108,
+      "relDepth": 4
     },
     {
       "id": "Part_0021",
-      "group": 1
+      "group": 1,
+      "weight": 10108,
+      "relDepth": 4
     },
     {
       "id": "Part_0022",
-      "group": 1
+      "group": 1,
+      "weight": 7773,
+      "relDepth": 4
     },
     {
       "id": "Part_0023",
-      "group": 1
+      "group": 1,
+      "weight": 7773,
+      "relDepth": 4
     },
     {
       "id": "Part_0024",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0025",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0026",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0027",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0028",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0029",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0030",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0031",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0032",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0033",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0034",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0035",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0036",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0037",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0038",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0039",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0040",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0041",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0042",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0043",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0044",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0045",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 4
     },
     {
       "id": "Part_0046",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0047",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0048",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0049",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0050",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0051",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0052",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0053",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0054",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0055",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0056",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0057",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0058",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0059",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0060",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0061",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0062",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0063",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0064",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0065",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0066",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0067",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0068",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0069",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0070",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0071",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0072",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0073",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0074",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0075",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Part_0076",
-      "group": 1
+      "group": 1,
+      "weight": 19000,
+      "relDepth": 3
     },
     {
       "id": "Retail_0001",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0002",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0003",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0004",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0005",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0006",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0007",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0008",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0009",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0010",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0011",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0012",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0013",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0014",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0015",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0016",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0017",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0018",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0019",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0020",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0021",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0022",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0023",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0024",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0025",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0026",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0027",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0028",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0029",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0030",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0031",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0032",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0033",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     },
     {
       "id": "Retail_0034",
-      "group": 4
+      "group": 5,
+      "weight": 19000,
+      "relDepth": 0
     }
   ],
   "links": [
