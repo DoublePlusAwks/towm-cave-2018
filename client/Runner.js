@@ -42,6 +42,70 @@ class Runner {
     return amnts;
   }
 
+  _getTimeDists = (sinks, sources) => {
+    const { data } = this;
+    const times = {};
+
+    for node_id in Object.entries(sinks) {
+      _recTimeDists(sinks, sources, node_id, times);
+    }
+  }
+
+
+  _recTimeDists = (sinks, sources, node_id, times) => {
+    const {data} = this;
+
+    let time = data[node_id][time];
+
+    if (node_id in sources) {
+      if (time[type] == "DETERMINISTIC") {
+        times[node_id] = {'mean': time[mean],
+                          'dev': 0};
+      }
+      else {
+        times[node_id] = {'mean': time[mean],
+                          'dev': time[dev]};
+      }
+      return times[node_id];
+    }
+    let inStages = data[node_id].inStages;
+    let mean = 0;
+    let dev = 0;
+
+    let stageMean = 0;
+    let stageDev = 0;
+
+    let maxMean = 0;
+
+    for (inStage in inStages) {
+      if (!(inStage in times)) {
+        stageTimeDist = _recTimeDists(sinks, sources, inStage, times);
+        stageMean = stageTimeDist["mean"];
+        stageDev = stageTimeDist["dev"];
+      }
+      else {
+        stageMean = times[inStage][mean];
+        stageDev = times[inStage][dev];
+      }
+      if (stageMean > mean) {
+        mean = stageMean;
+      }
+      if (stageDev > dev) {
+        dev = stageDev;
+      }
+    }
+
+    if (time[type] == "DETERMINISTIC") {
+        times[node_id] = {'mean': mean + time[mean],
+                          'dev': dev};
+    }
+    else {
+      times[node_id] = {'mean': mean + time[mean],
+                        'dev': Math.sqrt(dev*dev + time[dev]*time[dev])};
+    }
+    return times[node_id];
+  }
+
   _getSources = () => {
     const { data } = this;
     return Object.keys(data).filter(key => data[key].inStages.length === 0);
