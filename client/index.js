@@ -6,8 +6,9 @@ import $ from "jquery";
 import * as d3 from "d3";
 import Runner from './Runner';
 
-const runner = new Runner();
+const runner = new Runner('AIRCRAFT');
 const sim = runner.run();
+console.log(runner);
 console.log(sim);
 var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(runner.amnts));
 

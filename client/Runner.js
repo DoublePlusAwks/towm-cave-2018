@@ -2,22 +2,44 @@ import Chance from 'chance';
 import Stage from './Stage';
 import * as cerealData from '../data/Cereal/data.json';
 import * as aircraftData from '../data/Aircraft/data.json';
+import * as computerData from '../data/Computer/data.json';
+import * as perfumeData from '../data/Perfume/data.json';
 
 chance = Chance();
 
 class Runner {
-  constructor() {
-    this.data = cerealData.default;
+  constructor(dataFile) {
+    this.data = this._loadData(dataFile);
     this.sinks = {};
     for (let sink of this._getSinks()) {
       const demand = this.data[sink].demand;
       this.sinks[sink] = Math.max(0, Math.round(chance.normal({ mean: demand.avg, dev: demand.dev })));
     }
     this.sources = this._getSources();
-    this.amnts = this._getAmnts(this.sinks);
+    [this.amnts, this.sinkAmnts] = this._getAmnts(this.sinks);
     this.stages = {};
     for (let [key, value] of Object.entries(this.data)) {
       this.stages[key] = new Stage(value);
+    }
+  }
+
+  _loadData = (dataFile) => {
+    switch (dataFile) {
+      case 'CEREAL':
+        return cerealData.default;
+        break;
+      case 'AIRCRAFT':
+        return aircraftData.default;
+        break;
+      case 'COMPUTER':
+        return computerData.default;
+        break;
+      case 'PERFUME':
+        return perfumeData.default;
+        break;
+      default:
+        return {};
+        break;
     }
   }
 
@@ -33,28 +55,37 @@ class Runner {
 
   _getAmnts = (sinks) => {
     const { data } = this;
+    const sinkAmnts = {};
     const amnts = {};
     for (let [key, demand] of Object.entries(sinks)) {
-      amnts[key] = {};
+      sinkAmnts[key] = {};
+      amnts[key] = demand;
       let inStages = data[key].inStages;
       for (let i = 0; i < inStages.length; i++) {
         const curr = inStages[i];
-        if (amnts[key][curr]) {
-          amnts[key][curr] += demand;
+        if (sinkAmnts[key][curr]) {
+          sinkAmnts[key][curr] += demand;
+          amnts[curr] += demand;
         }
         else {
-          amnts[key][curr] = demand;
+          sinkAmnts[key][curr] = demand;
+        }
+        if (amnts[curr]) {
+          amnts[curr] += demand;
+        }
+        else {
+          amnts[curr] = demand;
         }
         inStages.push(...data[curr].inStages);
       }
     }
-    return amnts;
+    return [amnts, sinkAmnts];
   }
 
   run = () => {
-    const { amnts, stages } = this;
+    const { sinkAmnts, stages } = this;
     const sim = {};
-    for (let [sink, stgs] of Object.entries(amnts)) {
+    for (let [sink, stgs] of Object.entries(sinkAmnts)) {
       sim[sink] = { costs: {}, times: {} };
       for (let [stageKey, amnt] of Object.entries(stgs)) {
         const processingCosts = stages[stageKey].process(amnt);
@@ -62,7 +93,6 @@ class Runner {
         sim[sink].times[stageKey] = processingCosts.time;
       }
     }
-    console.log(sim);
     return sim;
   }
 }
